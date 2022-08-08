@@ -237,15 +237,21 @@ nav li a:hover{
     }
 
 
-    /* ------left-pic------ */
+    /* ------right-pic------ */
 
     .right-pic .pics{
         /* display: flex; */
         width: auto;
     }
     
+    .right-pic .top{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
     .right-pic .top li{
-        margin-right: 10px;
+        margin: 0 auto;
         max-width: 160px ;
         
     }
