@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="./CSS/global.css">
-    <link rel="stylesheet" href="./CSS/product.css">
-    <title>PRODUCT - OBJECT</title>
+    <link rel="stylesheet" href="./CSS/product_intro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <title>PRODUCT INFORMATION - OBJECT</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/8fd0ed157c.js" crossorigin="anonymous"></script>
     <script src="./js/global.js"></script>
@@ -80,56 +81,156 @@
 
     
 
+
         <!----- main ----->
 
         <main>
-
-            <h1>PRODUCTS</h1>
 
             <div class="product">
 
                 <!-- left -->
                 <nav>
-                    <ul>
+                    <ul class="nav">
                         <li><a class="top" href="product.html">Products</a></li>
                         <li><a href="product.html">All</a></li>
-                        <li><a href="#">Sofa</a></li>
-                        <li><a href="#">Chair</a></li>
-                        <li><a href="#">Table</a></li>
-                        <li><a href="#">Lighting</a></li>
-                        <li><a href="#">Accessory</a></li>
+                        <li><a href="product.html">Sofa</a></li>
+                        <li><a href="product.html">Chair</a></li>
+                        <li><a href="product.html">Table</a></li>
+                        <li><a href="product.html">Lighting</a></li>
+                        <li><a href="product.html">Accessory</a></li>
                     </ul>
-                </nav>
+
+                </nav>    
 
                 <!-- right -->
+                
+                <div class="pro-intro">
+                    <div class="top">  
+                        <div class="top-left">
+                            <div
+                          style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                          class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./img/product-intro/gray1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./img/product-intro/black1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./img/product-intro/green2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/product-intro/gray2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="img/product-intro/black2.jpg" />
+                            </div>
+                           
+                            </div>
+                                <!-- <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div> -->
+                            </div>
+                            <div thumbsSlider="" class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                <img src="./img/product-intro/gray1.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                <img src="./img/product-intro/black1.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                <img src="./img/product-intro/green2.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                <img src="./img/product-intro/gray2.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                <img src="./img/product-intro/black2.jpg" />
+                                </div>
+                            
+                            </div>
+                
+                        </div>
+                
+                    </div>
+            
+                    <div class="top-right">
+                        <h1>FIBER ARMCHAIR</h1>
+            
+                        <ul class="brand">
+                            <li><p>Brand</p></li>
+                            <li><p>MUUTO</p></li>
+                        </ul>
+            
+                        <ul class="color">
+                            <li><p>Color</p></li>
+            
+                            <ul class="color-item">
+                                <li><button  class="item1"></button></li> 
+                                <li><button  class="item2"></button></li>
+                                <li><button  class="item3"></button></li>
+                                
+                            </ul>
+            
+                        </ul>
+            
+            
+                        <ul class="price">
+                            <li><p>Price</p></li>
+                            <li><p>NT.20000</p></li>
+                        </ul>
+            
+                        <ul class="quantity">
+                            <li><p>Quantity</p></li>    
+                            <li><input type="number" placeholder="1" min="1" max="10"></li>
+            
+                        </ul>
+            
+                        <a href="#" class="cart">Add to cart</a>
+            
+            
+                    </div>
+                       
+                </div>
 
-                <div class="product-item">
-                    <div class="item1"><a href="product_intro.html"><img src='img/product/1.png' alt=""></a></div>
-                    <div class="item2"><a href="product_intro.html"><img src='img/product/2.png' alt=""></a></div>
-                    <div class="item3"><a href="product_intro.html"><img src='img/product/3.png' alt=""></a></div>
-                    <div class="item4"><a href="product_intro.html"><img src='img/product/4.png' alt=""></a></div>
-                    <div class="item5"><a href="product_intro.html"><img src='img/product/5.png' alt=""></a></div>
-                    <div class="item6"><a href="product_intro.html"><img src='img/product/6.png' alt=""></a></div>
-                    <div class="item7"><a href="product_intro.html"><img src='img/product/7.png' alt=""></a></div>
-                    <div class="item8"><a href="product_intro.html"><img src='img/product/8.png' alt=""></a></div>
-                    <div class="item9"><a href="product_intro.html"><img src='img/product/9.png' alt=""></a></div>
-                    <div class="item10"><a href="product_intro.html"><img src='img/product/10.png' alt=""></a></div>
-                    <div class="item11"><a href="product_intro.html"><img src='img/product/11.png' alt=""></a></div>
-                    <div class="item12"><a href="product_intro.html"><img src='img/product/12.png' alt=""></a></div>
-                    <div class="item13"><a href="product_intro.html"><img src='img/product/13.png' alt=""></a></div>
-                    <div class="item14"><a href="product_intro.html"><img src='img/product/14.png' alt=""></a></div>
-                    <div class="item15"><a href="product_intro.html"><img src='img/product/15.png' alt=""></a></div>
-                    <div class="item16"><a href="product_intro.html"><img src='img/product/16.png' alt=""></a></div>
-                    <div class="item17"><a href="product_intro.html"><img src='img/product/17.png' alt=""></a></div>
-                    <div class="item18"><a href="product_intro.html"><img src='img/product/18.png' alt=""></a></div>
+
+                    <div class="bottom">
+
+                        <div class="pd">
+                            <h2>Product Description</h2>
+                            <p>The Fiber Armchair brings a new perspective to the iconic shell chair through its innovative composite of plastic and wood fibers. Non-upholstered variants of the Fiber Armchair are made from a combination of recycled plastic (min. 80% is recycled) and FSC™ (FSC-C028824) certified wood fibers. The wood fibers blend into the surface for a matte finish and add a soft, inviting touch. The Fiber Armchair is designed with friendly, embracing curves that provide extensive comfort to its user while taking up little space in the room. Please note that Fiber Chair variants with recycled plastic will be available in North America by Fall 2022.</p>
+
+                        </div>
+
+                        <div class="mat">
+                            <h2>Material</h2>
+                            <p>Base material:	Powder Coated Steel <br>
+                            Seat material:	Wood and Recycled Plastic Composite
+                            </p>
+                        
+                        <br>
+                        
+                        <p>Height:	77 cm</p>
+                        <p>Width:	54,5 cm</p>
+                        <p>Depth:	56 cm</p>
+                        <p>Seat height:	46 cm</p>
+
+                        </div>
+                        
+                        
+                    </div>
+
+
 
                 </div>
+
+                
                 
 
             </div>
-
+            
         </main>
-
 
 
         <!----- footer ----->
@@ -175,7 +276,7 @@
     
                 <h3>Copyright © 2022 OBJECT</h3>
                 <p>本網站為緯育TibaMe前端工程師班第78期學員專題作品，本平台僅供學習、展示之用。</p>
-                <p>參考資源: XXX</p>
+                <p><a href="#">參考資源</a></p>
     
             </div>
     
@@ -186,7 +287,27 @@
 
     </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 5,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
 
 </body>
 </html>
