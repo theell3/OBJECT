@@ -1,0 +1,289 @@
+
+body{
+    font-family: arial;
+    background-color: #0D203C;
+}
+
+
+/* --------------main-------------- */
+
+
+/* --------------nav-------------- */
+
+
+nav{
+    color: white;
+    
+    margin: 120px auto 40px;
+
+}
+
+nav h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav ul{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav li{}
+
+nav button{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #0D203C;
+    border: 0;
+    text-align: center;
+}
+
+/* --------------inspiration-------------- */
+
+.inspiration-item{
+    margin: 0 auto 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 1350px;
+    flex-wrap: wrap;
+    
+    align-content: center;
+    
+}
+
+.inspiration-item a{
+    display: block;
+    margin: 0 10px 10px 0;
+    
+}
+
+.inspiration-item img{
+    width: 100%;
+    display: block;
+    /* width: 350px; */
+       
+}
+
+/* IMG(1,3,6,8,9,10.12) */
+
+
+.inspiration-item .item1 img{
+    width: 300px;
+    height: 225px;       
+}
+
+.inspiration-item .item3 img{
+    width: 300px;
+    height: 225px;      
+}
+
+
+
+.inspiration-item .item6 img{
+    width: 300px;
+    height: 225px;       
+}
+
+.inspiration-item .item8 img{
+    width: 300px;
+    height: 225px;      
+}
+
+.inspiration-item .item9 img{
+    width: 300px;
+    height: 225px;       
+}
+
+.inspiration-item .item11 img{
+    width: 300px;
+    height: 225px;      
+}
+
+/* IMG(2,4,5,7,10,12) */
+
+.inspiration-item .item2 img{
+    width: 300px;
+    height: 400px;       
+}
+
+.inspiration-item .item4 img{
+    width: 300px;
+    height: 400px;       
+}
+
+.inspiration-item .item5 img{
+    width: 300px;
+    height: 400px;       
+}
+
+
+
+.inspiration-item .item7 img{
+    width: 300px;
+    height: 400px;       
+}
+
+.inspiration-item .item10 img{
+    width: 300px;
+    height: 400px;       
+}
+
+.inspiration-item .item12 img{
+    width: 300px;
+    height: 400px;        
+}
+
+/* --------------hover-------------- */
+
+nav button:hover{
+    color: #595757;
+}
+
+
+.inspiration-item a:hover{
+    opacity: .5;
+}
+
+
+/* --------------RWD-------------- */
+
+@media screen and (max-width:428px) {
+
+    body{
+        background-color: black;
+    }
+
+    /* --------------nav-------------- */
+
+
+    nav{
+        background-color: #0D203C;
+        margin: 60px auto 0px;
+        padding: 40px 0;
+    }
+
+    nav h1{
+        font-size: 26px;
+    }
+
+    nav ul{
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    nav li{}
+
+    nav button{
+        width: 120px;
+    }
+
+
+
+    /* --------------inspiration-------------- */
+
+    .inspiration-item{
+        margin: 0px;
+        padding-bottom: 20px;
+        width: auto;
+        
+        max-height: 5000px ; 
+        background-color: #0D203C;
+        
+        
+    }
+
+    .inspiration-item a{
+        display: block;
+        margin: 0;
+        
+    }
+
+    .inspiration-item img{
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+        /* width: 350px; */
+           
+    }
+
+    /* IMG(1,3,6,8,9,10.12) */
+     
+
+    .inspiration-item .item1 img{
+        width: 350px;
+        height: 263px;        
+    }
+
+
+
+    .inspiration-item .item3 img{
+        width: 350px;
+        height: 263px;      
+    }
+
+
+
+    .inspiration-item .item6 img{
+        width: 350px;
+        height: 263px;       
+    }
+
+    .inspiration-item .item8 img{
+        width: 350px;
+        height: 263px;       
+    }
+
+    .inspiration-item .item9 img{
+        width: 350px;
+        height: 263px;         
+    }
+
+    .inspiration-item .item11 img{
+        width: 350px;
+        height: 263px;        
+    }
+
+
+    /* IMG(2,4,5,7,10,12) */
+
+    .inspiration-item .item2 img{
+        width: 350px;
+        height: 467px;       
+    }
+    
+    .inspiration-item .item4 img{
+        width: 350px;
+        height: 467px;       
+    }
+    
+    .inspiration-item .item5 img{
+        width: 350px;
+        height: 467px;       
+    }
+    
+
+    .inspiration-item .item7 img{
+        width: 350px;
+        height: 467px;      
+    }
+    
+    .inspiration-item .item10 img{
+        width: 350px;
+        height: 467px;       
+    }
+    
+    .inspiration-item .item12 img{
+        width: 350px;
+        height: 467px;       
+    }
+
+    
+}

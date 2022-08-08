@@ -1,0 +1,195 @@
+
+body{
+    font-family: arial;
+    background-color: #0D203C;
+}
+
+
+/* --------------main-------------- */
+
+.main_inner{ 
+    margin: 140px auto 60px;
+    max-width: 600px;
+    background-color: white;
+    height: 450px;
+ }
+
+.main_inner{
+    padding: 60px 80px;
+}
+
+.main_inner h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.main_inner h2{
+   
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.2;
+
+}
+
+.main_inner input{
+    
+}
+
+.main_inner .name1{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    color: gray;
+    outline: 0;
+}
+
+.main_inner .name2{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    color: gray;
+    outline: 0;
+}
+
+
+
+.main_inner .email{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    color: gray;
+    outline: 0;
+    
+}
+
+.main_inner .password{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    color: gray;
+    outline: 0;
+    
+}
+
+.main_inner .confirm{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    color: gray;
+    outline: 0;
+    
+}
+
+.main_inner .register{
+    display: block;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+
+/* --------------hover-------------- */
+
+.name1:focus{
+    color: black;
+}
+
+.name2:focus{
+    color: black;
+}
+
+.email:focus{
+    color: black;
+}
+
+.password:focus{
+    color: black;
+}
+
+.confirm:focus{
+    color: black;
+}
+
+
+.register:hover{
+    /* color: black; */
+    background-color: gray;
+}
+
+@media screen and (max-width:428px) {
+    
+    body{
+        background-color: black;
+    }
+
+    main{
+        background-color: #0D203C;
+        padding: 5px 20px;
+    }
+
+    .main_inner{
+        margin: 90px auto 40px;
+        padding: 30px 40px 45px;
+    }
+
+    .main_inner h1{
+        font-size: 26px;
+    }
+
+    .main_inner h2{
+        font-size: 18px;
+    }
+
+    .main_inner .register{
+        width: 100%;
+        line-height: 1.6;
+        
+        
+    }
+
+    /* iphone 標籤變形解決方法 */
+    input[type="text"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+    input[type="email"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+    input[type="password"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+
+    input[type="submit"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+
+
+}

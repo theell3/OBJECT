@@ -1,0 +1,114 @@
+body{
+    font-family: arial;
+    background-color: #0D203C;
+}
+
+/* --------------main-------------- */
+
+main{
+    max-width: 1400px;
+    margin: 120px auto 60px;
+}
+
+main img{
+    width: 100%;
+}
+
+main h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner1{
+    max-width: 1300px;
+    max-height: 650px;
+    margin: 0 auto;
+    
+    
+}
+
+main ul{
+   
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 100px auto 0;
+}
+
+.banner2{
+    width: 600px;
+    height: 300px; 
+    margin: 0;
+}
+
+.banner3{
+    width: 600px;
+    height: 300px;
+    margin: 0;
+}
+
+
+
+
+/* -------------- RWD-------------- */
+
+@media screen and (max-width:428px) {
+    
+    body{
+        background-color: black;
+    }
+
+
+    main{
+        max-width: auto;
+        margin: 60px auto 0px;
+        padding: 25px 20px;
+        background-color: #0D203C;
+    }
+    
+    main img{
+        width: 100%;
+    }
+    
+    main h1{
+        
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+    .banner1{
+        max-width: 1300px;
+        max-height: 650px;
+        margin: 0 auto 30px;
+        
+        
+    }
+    
+    main ul{
+       
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 30px auto 0;
+    }
+    
+
+    .banner2{
+        width: auto;
+        height: auto; 
+        margin-bottom: 30px;
+    }
+    
+    .banner3{
+        width: auto;
+        height: auto;
+        
+    }
+    
+ 
+
+
+}

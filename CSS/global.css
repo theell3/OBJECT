@@ -1,0 +1,371 @@
+@import url('reset.css');
+
+
+body{
+    font-family: arial;
+    background-color: #0D203C;
+}
+
+/* --------------Header-------------- */
+
+
+
+header{
+    
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    z-index: 10;
+    width: 100%;
+    
+}
+
+.header-inner{   
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;   
+    align-items: center;
+    color: white;
+}
+
+/* --------------menuPC-------------- */
+.menu_pc{
+    
+    display: flex;
+    
+}
+
+.menu_pc li{
+    margin: 0 60px;       
+}
+
+.menu_pc li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* --------------RWD menu-------------- */
+
+.header-inner > .fa-bars{
+    display: none;
+    /* font-size: 30px; */
+}
+
+.header-inner .inmenu{
+    display: none;
+    
+}
+
+
+.menu{
+  
+    display: none;
+    
+}
+
+
+
+/* --------------icon-------------- */
+
+.icon{
+    display: flex;
+}
+
+.icon li{
+    margin-left: 30px;
+}
+
+
+.icon li a{
+    color: white;
+    font-size: 16px;
+}
+
+/* --------------main-------------- */
+
+/* 記得天高度80PX 所以要Margin top 140px比較剛好 */
+
+.main{
+    margin-top: 80px;
+    color: white;
+    
+}
+
+
+/* --------------footer-------------- */
+
+footer{
+    
+    height: 440px;
+    background-color: black;
+    padding-top: 55px;
+}
+
+.footer_inner{}
+
+.footer_inner ul{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+      
+}
+
+.footer_inner li{    
+    text-align: center;
+    flex-basis: 220px;
+}
+
+.footer_inner .top{
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.footer_inner a{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.footer_inner h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.footer_inner p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+
+
+/* -------------- RWD -------------- */
+
+@media screen and (max-width: 428px){
+
+    body{
+        background-color: black;
+    }
+
+
+    /* --------header-------- */
+
+    header{
+        
+    }
+    
+    .header-inner{   
+        height: 60px;
+        padding: 0 20px;
+        
+    }
+
+
+    .header-inner > a > img{
+        height: 25px;
+    }
+
+
+
+    /* 漢堡線 + 小表單 */
+
+    .header-inner > .fa-bars{
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        width: 20px;
+        
+    }
+
+    .menu_pc{
+        display: none;
+    }
+
+    /* ----------------rwd menu--------------- */
+    .menu{
+        display: block;
+        
+    }
+
+     
+    .menu{
+        
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 60px;
+        width: 60vw;
+        height: calc(100vh - 60px);
+        
+        background-color: rgba(0, 0, 0, .9);
+        /* transition: 0.5s;
+        right: -100%; */
+        
+    }
+    
+    .menu li{
+        margin: 0px;   
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+
+    }
+    
+    .menu li a{ 
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        
+    }
+
+   
+
+    .header-inner .inmenu{
+        /* display: block; */
+        
+        
+        
+    }
+
+    .header-inner .menu>li>a.active{
+        /* background: #595757; */
+    }
+
+    .header-inner .inmenu li{
+        padding: 5px;
+        height: 20px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        
+    }
+
+    .header-inner .inmenu li a{
+        height: 20px;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    /* ----------------icon--------------- */
+
+   
+    
+    
+    .icon{
+        
+        position: fixed;
+        left: 215px
+        
+    }
+    
+    .icon li{
+        margin-left: 25px;
+    }
+    
+    
+    .icon li a{
+        color: white;
+        text-align: left;
+        display: block;   
+    }
+
+    .icon li a i.fa-solid{
+        width: 20px;
+        text-align: center;
+    }
+
+    /* .icon .search{
+        order:2;
+    } */
+
+
+
+    /* 測試HOVER記得刪除 */
+
+    /* .fa-bars:hover ~ ul{
+    right:0;
+    } */
+
+    /* --------footer-------- */
+
+    footer{
+        height: auto;
+        background-color: black;
+        padding-top: 0px;
+    }
+
+    .footer_inner ul{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer_inner li{    
+        text-align: left;
+        margin-left: 30px;
+        flex-basis: auto;
+        line-height: 40px;       
+    }
+
+       
+    .footer_inner .top{
+        font-weight: bold;
+        margin: 30px 0 0px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+
+    .footer_inner a{
+        display: block;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 0px;
+    }
+
+    .footer_inner h3{
+        border-top: 1px solid white;
+        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .footer_inner p{
+      padding: 0 30px 5px; 
+      
+    } 
+
+    .footer_inner p:last-child{
+        padding-bottom: 20px;
+    } 
+}
+
+
+/* 其他尺寸 */
+
+@media screen and (max-width: 393px){
+    .icon{
+        left: 190px
+    }
+}
+
+@media screen and (max-width: 375px){
+    .icon{
+        left: 170px
+    }
+}

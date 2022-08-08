@@ -1,0 +1,251 @@
+
+body{
+    font-family: arial;
+    background-color: #0D203C;
+}
+
+/* --------------main-------------- */
+
+
+/* -----main----- */
+
+main{
+    margin: 140px auto 60px;
+    max-width: 600px; 
+}
+
+.main_top{ 
+    
+    margin-top: 100px;
+    background-color: white;
+    margin-bottom: 40px;
+    height: 450px;
+ }
+
+.main_top_inner{
+    padding: 60px 80px;
+}
+
+.main_top h1{
+    font-weight: bold;
+    font-size: 30px;
+    
+    margin-bottom: 20px;
+}
+
+.main_top h2{
+   
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+
+}
+.main_top .email{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    color: gray;
+    outline: 0;
+    
+}
+
+.main_top .password{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    color: gray;
+    outline: 0;
+    
+}
+
+
+.main_top ul{
+    
+    
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+.main_top li{
+    
+    
+}
+
+.main_top .login{
+    
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 10px;
+    border: 0;
+    
+}
+
+.main_top .right{
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+    padding: 10px 0;
+    color: gray;
+}
+
+.main_top .bottom{
+    
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.main_bottom{}
+
+
+.main_bottom ul{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+  
+}
+
+.main_bottom li{
+
+}
+
+.main_bottom a{
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+       
+}
+
+
+/* --------------hover-------------- */
+
+.email:focus{
+    color: black;
+}
+
+.password:focus{
+    color: black;
+}
+
+
+.login:hover{
+    /* color: black; */
+    background-color: gray;
+}
+
+.bottom:hover{
+   color: gray;
+}
+
+.right:hover{
+   color: darkgray;
+}
+
+
+
+/* --------------RWD-------------- */
+
+@media screen and (max-width: 428px) {
+
+    body{
+        background-color: black;
+    }
+
+    main{
+        margin: 60px auto 0px;
+        padding: 40px 0;
+        width: auto; 
+        background-color: #0D203C;
+    }
+ 
+    .main_top{ 
+        height: auto;
+        margin: 0px 20px 30px ;
+    }
+
+    .main_top_inner{
+        padding: 30px 40px 20px;
+    }
+
+    .main_top ul{
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .main_top .login{    
+        float: none;
+        margin: 0 auto 20px;
+        width: 100%;
+        line-height: 1.6;         
+    }
+
+    input[type="text"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+
+    input[type="submit"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+    .main_top .right{
+        display: block;
+        float: none;
+        margin: 0 auto 10px;
+        text-align: center;   
+    }
+
+    .main_top_inner .bottom{
+       text-align: center;
+       margin: 0 auto ;
+        display: block;
+    }
+
+    .main_bottom ul{
+        width: auto;
+        justify-content: space-between;
+        margin: 0 75px;
+    }
+
+    .main_bottom a{     
+        width: 120px;       
+    }
+
+    .main_top h1{    
+        font-size: 26px;
+    }
+    
+    .main_top h2{
+        font-size: 18px;
+    }
+
+
+    /* iphone 標籤變形解決方法 */
+    input[type="text"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+
+    input[type="submit"]{
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+}
